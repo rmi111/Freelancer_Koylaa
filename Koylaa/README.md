@@ -41,7 +41,5 @@ TikTok, known in China as Douyin, is a video-sharing social networking service o
 
 ## About Original Author
 
-[Original Project (not the same)](https://github.com/dks333/Tiktok-Clone/blob/master/README.md) <br>
-Sam Ding,  [dingkaishan@gmail.com](mailto:dingkaishan@gmail.com) <br>
-[Twitter](https://twitter.com/SamDing32388985)
+
 
