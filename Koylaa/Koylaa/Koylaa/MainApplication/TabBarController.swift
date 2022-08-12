@@ -13,9 +13,9 @@ class TabBarController:  UITabBarController, UITabBarControllerDelegate {
     
     var homeNavigationController: BaseNavigationController!
     var homeViewController: HomeViewController!
-    var discoverViewController: DiscoverViewController!
+    var discoverViewController: ExploreViewController!
     var mediaViewController: MediaViewController!
-    var inboxViewController: InboxViewController!
+    var inboxViewController: NotificationViewController!
     var profileViewController: ProfileViewController!
 
     
@@ -31,9 +31,9 @@ class TabBarController:  UITabBarController, UITabBarControllerDelegate {
         
         homeViewController = HomeViewController()
         homeNavigationController = BaseNavigationController(rootViewController: homeViewController)
-        discoverViewController = DiscoverViewController()
+        discoverViewController = ExploreViewController()
         mediaViewController = MediaViewController()
-        inboxViewController = InboxViewController()
+        inboxViewController = NotificationViewController()
         profileViewController = ProfileViewController()
      
         
@@ -53,7 +53,7 @@ class TabBarController:  UITabBarController, UITabBarControllerDelegate {
         
         viewControllers = [homeNavigationController, discoverViewController, mediaViewController, inboxViewController, profileViewController]
         
-        let tabBarItemTitle = ["Home", "Discover", "Add", "Inbox", "Me"]
+        let tabBarItemTitle = ["Home", "Explore", "Add", "Notification", "Me"]
         
         for (index, tabBarItem) in tabBar.items!.enumerated() {
             tabBarItem.title = tabBarItemTitle[index]

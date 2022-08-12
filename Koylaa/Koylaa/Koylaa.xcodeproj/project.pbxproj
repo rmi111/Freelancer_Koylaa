@@ -10,12 +10,12 @@
 		180705E9250801130096A4A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180705E8250801130096A4A5 /* AppDelegate.swift */; };
 		180705EB250801130096A4A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180705EA250801130096A4A5 /* SceneDelegate.swift */; };
 		180705ED250801130096A4A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180705EC250801130096A4A5 /* HomeViewController.swift */; };
-		180705EF250801130096A4A5 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180705EE250801130096A4A5 /* DiscoverViewController.swift */; };
+		180705EF250801130096A4A5 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180705EE250801130096A4A5 /* ExploreViewController.swift */; };
 		180705F4250801160096A4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180705F3250801160096A4A5 /* Assets.xcassets */; };
 		180705F7250801160096A4A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180705F5250801160096A4A5 /* LaunchScreen.storyboard */; };
 		180705FF250802410096A4A5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180705FE250802410096A4A5 /* TabBarController.swift */; };
 		18070601250802AA0096A4A5 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18070600250802AA0096A4A5 /* MediaViewController.swift */; };
-		18070603250802BB0096A4A5 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18070602250802BB0096A4A5 /* InboxViewController.swift */; };
+		18070603250802BB0096A4A5 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18070602250802BB0096A4A5 /* NotificationViewController.swift */; };
 		18070605250802C60096A4A5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18070604250802C60096A4A5 /* ProfileViewController.swift */; };
 		1807060F250825F90096A4A5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807060E250825F90096A4A5 /* HomeViewModel.swift */; };
 		1807061225082DE40096A4A5 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807061025082DE40096A4A5 /* HomeTableViewCell.swift */; };
@@ -64,13 +64,13 @@
 		180705E8250801130096A4A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		180705EA250801130096A4A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		180705EC250801130096A4A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		180705EE250801130096A4A5 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		180705EE250801130096A4A5 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		180705F3250801160096A4A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180705F6250801160096A4A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180705F8250801160096A4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180705FE250802410096A4A5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		18070600250802AA0096A4A5 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
-		18070602250802BB0096A4A5 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		18070602250802BB0096A4A5 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		18070604250802C60096A4A5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1807060E250825F90096A4A5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1807061025082DE40096A4A5 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
@@ -180,9 +180,9 @@
 			isa = PBXGroup;
 			children = (
 				18070608250802EF0096A4A5 /* Home */,
-				18070609250802F70096A4A5 /* Discover */,
+				18070609250802F70096A4A5 /* Explore */,
 				1807060A250802FD0096A4A5 /* Media */,
-				1807060B250803040096A4A5 /* Inbox */,
+				1807060B250803040096A4A5 /* Notification */,
 				1807060C250803080096A4A5 /* Profile */,
 			);
 			path = Modules;
@@ -199,12 +199,12 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		18070609250802F70096A4A5 /* Discover */ = {
+		18070609250802F70096A4A5 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				180705EE250801130096A4A5 /* DiscoverViewController.swift */,
+				180705EE250801130096A4A5 /* ExploreViewController.swift */,
 			);
-			path = Discover;
+			path = Explore;
 			sourceTree = "<group>";
 		};
 		1807060A250802FD0096A4A5 /* Media */ = {
@@ -219,12 +219,12 @@
 			path = Media;
 			sourceTree = "<group>";
 		};
-		1807060B250803040096A4A5 /* Inbox */ = {
+		1807060B250803040096A4A5 /* Notification */ = {
 			isa = PBXGroup;
 			children = (
-				18070602250802BB0096A4A5 /* InboxViewController.swift */,
+				18070602250802BB0096A4A5 /* NotificationViewController.swift */,
 			);
-			path = Inbox;
+			path = Notification;
 			sourceTree = "<group>";
 		};
 		1807060C250803080096A4A5 /* Profile */ = {
@@ -528,7 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18070603250802BB0096A4A5 /* InboxViewController.swift in Sources */,
+				18070603250802BB0096A4A5 /* NotificationViewController.swift in Sources */,
 				180D0361250F4E4500009875 /* UIKit Extensions.swift in Sources */,
 				18070616250832040096A4A5 /* Post.swift in Sources */,
 				186A7EBC2518989700E58C1B /* Comment.swift in Sources */,
@@ -538,7 +538,7 @@
 				1861F6C9250B683F00AEBF3D /* Colors.swift in Sources */,
 				1807060F250825F90096A4A5 /* HomeViewModel.swift in Sources */,
 				18D4C73225147A69008B2B86 /* Constants.swift in Sources */,
-				180705EF250801130096A4A5 /* DiscoverViewController.swift in Sources */,
+				180705EF250801130096A4A5 /* ExploreViewController.swift in Sources */,
 				189ED83D252560D800C35A5B /* AccessPermissionView.swift in Sources */,
 				1861F6CB250BE8C100AEBF3D /* ProfileCollectionViewFlowLayout.swift in Sources */,
 				180D0363250F4EFA00009875 /* ProfileHeaderView.swift in Sources */,
