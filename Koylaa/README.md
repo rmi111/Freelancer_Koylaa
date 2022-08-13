@@ -1,12 +1,8 @@
 ![](/Images/banner.png)
 
-# Tiktok Clone
+# Koylaa
 
-iOS Tiktok Clone built with **Swift(Frontend)** and **Firebase(Backend)**
-
-Tiktok Clone contains Chinese Tiktok version and U.S. Tiktok version.
-
-TikTok, known in China as Douyin, is a video-sharing social networking service owned by ByteDance, a Beijing-based Internet technology company founded in 2012 by Zhang Yiming. (From Wikipedia)
+Koylaa built with **Swift(Frontend)** and **Firebase(Backend)**
 
 # Documentation
 
