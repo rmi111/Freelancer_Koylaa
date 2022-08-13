@@ -17,6 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5GL-z7-DVR">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="aOd-EU-d8m">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
@@ -24,12 +28,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5GL-z7-DVR" secondAttribute="trailing" id="2Cs-GN-uya"/>
+                            <constraint firstItem="5GL-z7-DVR" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="691-tR-WZK"/>
+                            <constraint firstItem="5GL-z7-DVR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dvx-sh-c6w"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="aOd-EU-d8m" secondAttribute="top" id="FTV-yU-X3W"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aOd-EU-d8m" secondAttribute="trailing" id="J2p-CD-ph1"/>
                             <constraint firstItem="aOd-EU-d8m" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YEv-fN-Hdu"/>
                             <constraint firstItem="aOd-EU-d8m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fxB-Gj-MbO"/>
                             <constraint firstItem="aOd-EU-d8m" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jwC-8k-AwS"/>
                             <constraint firstItem="aOd-EU-d8m" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="p67-Yl-g9z"/>
+                            <constraint firstItem="5GL-z7-DVR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="teC-Pg-mnD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5GL-z7-DVR" secondAttribute="bottom" id="v4p-6c-lIY"/>
+                            <constraint firstItem="5GL-z7-DVR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wZS-ez-Fc6"/>
                         </constraints>
                     </view>
                 </viewController>
